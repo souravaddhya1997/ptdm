@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    height: 80px;
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  .ele2{
+    color: aqua;
+  }
+  .container1{
+    background-color: rgb(212, 210, 210);
+    width: 100%;
+  }
+  .add1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  #plus{
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: larger;
+  }
+  #task{
+    color: black;
+  }
+  .container{
+    display: flex;
+    /* height: 500px;
+    width: 500px; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    /* margin-left: 150px; */
+    margin-top: 50px;
+  }
+  .box{
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  .box:hover{
+    box-shadow: aliceblue;
+  }
+  h2{
+    color: aqua;
+  }
+  .parent{
+    filter: blur(5px);
+  }
+  .parent1{
+    filter: blur(2px);
+  }
+  .grandparent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addbox{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: aliceblue;
+  }
+  .learn{
+    /* margin-top: 50px; */
+  }
+  .tripbox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .trip{
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+  }
+  .main{
+    background-color: azure;
+  }
+  .backtask{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+  }
+  #btn{
+    margin-left: 100px;
+    margin-top: 70px;
+    background-color: aqua;
+  }
+  #abc{
+    margin-left: 10px;
+  }
+  .first{
+    display: flex;
+    gap: 90px;
+  }
+  @media only screen and (max-width: 700px){
+    /* .navbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
